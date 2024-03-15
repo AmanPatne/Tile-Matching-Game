@@ -69,4 +69,4 @@ class MemoryGame {
     game.cards.forEach(card => {
     card.addEventListener('click', game.flip.bind(game, card));
     });
-    
+    //
